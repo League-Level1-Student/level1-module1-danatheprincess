@@ -18,8 +18,12 @@ System.out.println(car.getPositionInRace());
 		// 3. Crash the RaceCar
 		car.crash();
 		// 4. If the car is damaged. Bring it in for a pit stop.
-
+if(car.isDamaged()){
+	car.pit();
+}
 		// 5. Help the car move into first place.
-
+while(car.getPositionInRace()>1) {
+	car.overtake();
+}
 	}
 }
