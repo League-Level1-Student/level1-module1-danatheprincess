@@ -1,3 +1,4 @@
+package _06_duck;
 
 public class Duck {
 	String favoriteFood;
